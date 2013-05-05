@@ -20,6 +20,7 @@
 -include device/samsung/galaxys2-common/BoardCommonConfig.mk
 
 TARGET_BOARD_INFO_FILE := device/samsung/d710/board-info.txt
+TARGET_CPU_VARIANT := cortex-a9
 TARGET_RECOVERY_INITRC := device/samsung/d710/rootdir/recovery.rc
 
 # Kernel Config
