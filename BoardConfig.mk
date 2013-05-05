@@ -1,4 +1,4 @@
-#
+`#
 # Copyright (C) 2011 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,8 +32,8 @@ TARGET_BOARD_INFO_FILE := device/samsung/d710/board-info.txt
 TARGET_RECOVERY_INITRC := device/samsung/d710/recovery.rc
 
 # Kernel Config
-TARGET_KERNEL_SOURCE := kernel/samsung/smdk4210
-TARGET_KERNEL_CONFIG := cyanogenmod_d710_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/d710
+TARGET_KERNEL_CONFIG := u1_na_spr_defconfig
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
